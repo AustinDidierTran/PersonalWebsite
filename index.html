@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="website">
+	<head>
+		<meta charset="utf-8">
+		<title>Austin-Didier Tran</title>
+		<meta name="author" content"Austin-Didier Tran"></meta>
+		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"></link>
+	-->
+		<link rel="stylesheet" type="text/css" href="AustinDidierTran.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+		<script src="angular.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+
+
+	</head>
+	<body topmargin="0">
+		<table id="content" cellpadding="0" cellspacing="0">
+		</table>
+		<div id="content" topmargin="0" ng-controller="WebsiteController as website">
+			<div class="header">
+				<h1>AUSTIN-DIDIER TRAN</h1>
+			</div>
+			<div ng-controller="PanelController as panelCtrl">
+				<ul class="nav nav-pills" role="tablist">
+
+					<li ng-class="{active:panelCtrl.isSelected(0)}"><a href ng-click="panelCtrl.selectTab(0)">{{website.tabs[0].value}}</a></li>
+					<li ng-class="{active:panelCtrl.isSelected(1)}"><a href ng-click="panelCtrl.selectTab(1)">{{website.tabs[1].value}}</a></li>
+					<li ng-class="{active:panelCtrl.isSelected(2)}"><a href ng-click="panelCtrl.selectTab(2)">{{website.tabs[2].value}}</a></li>
+
+				</ul>
+				<div class="panel" ng-show="panelCtrl.isSelected(0)">
+					<div class="col-md-12">
+						<div ng-repeat="article in website.articles | orderBy:'articleID'">
+							<div class="row">
+								<div class="col-md-4">
+									<img ng-src={{article.picture}} style="width:304px;height:228px">
+								</div>
+								<div class="col-md-8">
+									<p>{{article.content}}</p>
+									<p>Écrit le {{article.date}} par {{article.author}}</p>
+									<hr>
+								</div>
+							</div>
+						</br>
+						</div>
+	  				</div>
+				</div>
+
+				<div class="panel" ng-show="panelCtrl.isSelected(1)">
+					<p>Onglet {{website.tabs[1].value}}</p>
+				</div>
+
+				<div class="panel" ng-show="panelCtrl.isSelected(2)">
+					<p>Onglet {{website.tabs[2].value}}</p>
+				</div>
+
+				
+					
+			</div>
+		</div>
+	</body>
+</html>
