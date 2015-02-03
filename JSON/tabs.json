@@ -1,0 +1,18 @@
+[
+
+	{
+		"ID": 1,
+		"value": "Expériences Professionnelles",
+		"templateURL": "HTML/experiences.html"
+	},
+	{
+		"ID": 2,
+		"value": "Connaissances Particulières",
+		"templateURL": "HTML/connaissances.html"
+	},
+	{
+		"ID": 3,
+		"value": "Parcours Scolaire",
+		"templateURL": "HTML/scolaires.html"
+	}
+]

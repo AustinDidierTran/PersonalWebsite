@@ -1,20 +1,35 @@
-body{
-	background-color:black;
-}
 p{
 	text-align:justify;
 }
-.photo{
+a{
+	color:#555;
 }
-.article{
+h1,h3,h4, a, span, p{
+	font-family:Tahoma, Geneva, sans-serif;
 }
-.nouvelles{
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	color:#ffb;
+	background-color:#555;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.socialBox{
+	border-top: 50px solid #999;
+}
 
+.icon{
+	width:30px;
+	height:30px;
 }
-#content{
+.picture{
+	width:120px;
+}
+#container{
 	margin-top:-10px;
 	margin-left:auto;
 	margin-right:auto;
 	width:985px;
 	background-color:white;
+}
+#footer{
+	margin-bottom:100px;
 }

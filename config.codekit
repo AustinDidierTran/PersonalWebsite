@@ -53,16 +53,41 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Chat.JPG": {
-		"fileType": 16384,
+	"\/HTML\/articles.html": {
+		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.66607e+06,
-		"inputAbbreviatedPath": "\/Chat.JPG",
-		"outputAbbreviatedPath": "\/Chat.JPG",
+		"inputAbbreviatedPath": "\/HTML\/articles.html",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
+		},
+	"\/HTML\/experiences.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/HTML\/experiences.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/HTML\/scolaires.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/HTML\/scolaires.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/HTML\/socials.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/HTML\/socials.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -73,24 +98,189 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Pictures\/Chat.JPG": {
+	"\/OriginalPictures\/Chat.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 53190,
-		"inputAbbreviatedPath": "\/Pictures\/Chat.JPG",
-		"outputAbbreviatedPath": "\/Pictures\/Chat.JPG",
+		"initialSize": 64910,
+		"inputAbbreviatedPath": "\/OriginalPictures\/Chat.JPG",
+		"outputAbbreviatedPath": "\/OriginalPictures\/Chat.JPG",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Pictures\/Chien.JPG": {
+	"\/OriginalPictures\/Chien.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 156246,
-		"inputAbbreviatedPath": "\/Pictures\/Chien.JPG",
-		"outputAbbreviatedPath": "\/Pictures\/Chien.JPG",
+		"initialSize": 176837,
+		"inputAbbreviatedPath": "\/OriginalPictures\/Chien.JPG",
+		"outputAbbreviatedPath": "\/OriginalPictures\/Chien.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/OriginalPictures\/FitImages.workflow\/Contents\/QuickLook\/Preview.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58895,
+		"inputAbbreviatedPath": "\/OriginalPictures\/FitImages.workflow\/Contents\/QuickLook\/Preview.png",
+		"outputAbbreviatedPath": "\/OriginalPictures\/FitImages.workflow\/Contents\/QuickLook\/Preview.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Articles\/Accueil.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 147360,
+		"inputAbbreviatedPath": "\/Pictures\/Articles\/Accueil.jpg",
+		"outputAbbreviatedPath": "\/Pictures\/Articles\/Accueil.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Connaissances\/angular.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7213,
+		"inputAbbreviatedPath": "\/Pictures\/Connaissances\/angular.jpg",
+		"outputAbbreviatedPath": "\/Pictures\/Connaissances\/angular.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Connaissances\/bootstrap.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.79008e+06,
+		"inputAbbreviatedPath": "\/Pictures\/Connaissances\/bootstrap.png",
+		"outputAbbreviatedPath": "\/Pictures\/Connaissances\/bootstrap.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Connaissances\/cplusplus.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69496,
+		"inputAbbreviatedPath": "\/Pictures\/Connaissances\/cplusplus.png",
+		"outputAbbreviatedPath": "\/Pictures\/Connaissances\/cplusplus.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Connaissances\/css3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14157,
+		"inputAbbreviatedPath": "\/Pictures\/Connaissances\/css3.png",
+		"outputAbbreviatedPath": "\/Pictures\/Connaissances\/css3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Connaissances\/express_js.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3394,
+		"inputAbbreviatedPath": "\/Pictures\/Connaissances\/express_js.png",
+		"outputAbbreviatedPath": "\/Pictures\/Connaissances\/express_js.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Connaissances\/html5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8562,
+		"inputAbbreviatedPath": "\/Pictures\/Connaissances\/html5.png",
+		"outputAbbreviatedPath": "\/Pictures\/Connaissances\/html5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Connaissances\/java.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47515,
+		"inputAbbreviatedPath": "\/Pictures\/Connaissances\/java.png",
+		"outputAbbreviatedPath": "\/Pictures\/Connaissances\/java.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Connaissances\/javascript.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7384,
+		"inputAbbreviatedPath": "\/Pictures\/Connaissances\/javascript.png",
+		"outputAbbreviatedPath": "\/Pictures\/Connaissances\/javascript.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Connaissances\/mongodb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12510,
+		"inputAbbreviatedPath": "\/Pictures\/Connaissances\/mongodb.png",
+		"outputAbbreviatedPath": "\/Pictures\/Connaissances\/mongodb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Connaissances\/nodejs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24199,
+		"inputAbbreviatedPath": "\/Pictures\/Connaissances\/nodejs.png",
+		"outputAbbreviatedPath": "\/Pictures\/Connaissances\/nodejs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Experiences\/barons.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11399,
+		"inputAbbreviatedPath": "\/Pictures\/Experiences\/barons.jpg",
+		"outputAbbreviatedPath": "\/Pictures\/Experiences\/barons.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Experiences\/nordia.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10698,
+		"inputAbbreviatedPath": "\/Pictures\/Experiences\/nordia.jpg",
+		"outputAbbreviatedPath": "\/Pictures\/Experiences\/nordia.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Experiences\/omni.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19849,
+		"inputAbbreviatedPath": "\/Pictures\/Experiences\/omni.png",
+		"outputAbbreviatedPath": "\/Pictures\/Experiences\/omni.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -106,46 +296,90 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/PicturesUncompressed\/Chat.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 64910,
-		"inputAbbreviatedPath": "\/PicturesUncompressed\/Chat.JPG",
-		"outputAbbreviatedPath": "\/PicturesUncompressed\/Chat.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/PicturesUncompressed\/Chien.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 176837,
-		"inputAbbreviatedPath": "\/PicturesUncompressed\/Chien.JPG",
-		"outputAbbreviatedPath": "\/PicturesUncompressed\/Chien.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/PicturesUncompressed\/FitImages.workflow\/Contents\/QuickLook\/Preview.png": {
+	"\/Pictures\/Footer\/mail.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 58895,
-		"inputAbbreviatedPath": "\/PicturesUncompressed\/FitImages.workflow\/Contents\/QuickLook\/Preview.png",
-		"outputAbbreviatedPath": "\/PicturesUncompressed\/FitImages.workflow\/Contents\/QuickLook\/Preview.png",
+		"initialSize": 19161,
+		"inputAbbreviatedPath": "\/Pictures\/Footer\/mail.png",
+		"outputAbbreviatedPath": "\/Pictures\/Footer\/mail.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Profile.JPG": {
+	"\/Pictures\/Footer\/phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26129,
+		"inputAbbreviatedPath": "\/Pictures\/Footer\/phone.png",
+		"outputAbbreviatedPath": "\/Pictures\/Footer\/phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Scolaires\/cegep_sherbrooke.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20066,
+		"inputAbbreviatedPath": "\/Pictures\/Scolaires\/cegep_sherbrooke.png",
+		"outputAbbreviatedPath": "\/Pictures\/Scolaires\/cegep_sherbrooke.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Scolaires\/USherbrooke.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2.35846e+06,
-		"inputAbbreviatedPath": "\/Profile.JPG",
-		"outputAbbreviatedPath": "\/Profile.JPG",
+		"initialSize": 9504,
+		"inputAbbreviatedPath": "\/Pictures\/Scolaires\/USherbrooke.jpg",
+		"outputAbbreviatedPath": "\/Pictures\/Scolaires\/USherbrooke.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Social\/Email.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15432,
+		"inputAbbreviatedPath": "\/Pictures\/Social\/Email.png",
+		"outputAbbreviatedPath": "\/Pictures\/Social\/Email.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Social\/Facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7120,
+		"inputAbbreviatedPath": "\/Pictures\/Social\/Facebook.png",
+		"outputAbbreviatedPath": "\/Pictures\/Social\/Facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Social\/LinkedIn.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3642,
+		"inputAbbreviatedPath": "\/Pictures\/Social\/LinkedIn.png",
+		"outputAbbreviatedPath": "\/Pictures\/Social\/LinkedIn.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Pictures\/Social\/Twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6289,
+		"inputAbbreviatedPath": "\/Pictures\/Social\/Twitter.png",
+		"outputAbbreviatedPath": "\/Pictures\/Social\/Twitter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -737,7 +971,7 @@
 	"markdownEnableFootnotes": 0,
 	"markdownEnableSmartyPants": 1,
 	"markdownExpandTabs": 1,
-	"reloadFileURLs": 0,
+	"reloadFileURLs": 1,
 	"sassAutoOutputPathEnabled": 1,
 	"sassAutoOutputPathFilenamePattern": "*.css",
 	"sassAutoOutputPathRelativePath": "..\/css",

@@ -1,0 +1,13 @@
+<div class="panel" ng-show="mainCtrl.isSelected(3)">
+	<div class="row" ng-repeat="scolaire in scolaires | orderBy:'experienceID'">
+		<div class="col-md-12">
+			<h3>{{scolaire.institution}}</h3>
+			<h4>{{scolaire.field}}</h4>
+			<p>{{scolaire.duration}}</p>
+			<p ng-repeat="course in scolaire.courses">{{course.code}} - {{course.name}}</p>
+			<p>{{scolaire.description}}</p>
+		</div>
+		<hr>
+	</div>
+	<br>
+</div>

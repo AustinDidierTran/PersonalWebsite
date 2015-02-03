@@ -1,0 +1,12 @@
+<div class="panel" ng-show="mainCtrl.isSelected(2)">
+	<div class="row" ng-repeat="experience in experiences | orderBy:'experienceID'">
+		<div class="col-md-12">
+			<h3>{{experience.title}}</h3>
+			<h4>{{experience.employer}} - {{experience.location}}</h4>
+			<p>{{experience.duration}}</p>
+			<p>{{experience.description}}</p>
+		</div>
+		<hr>
+	</div>
+	<br>
+</div>

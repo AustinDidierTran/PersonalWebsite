@@ -1,101 +1,107 @@
 <!DOCTYPE html>
 <html ng-app="app">
-	<head>
-		<meta charset="utf-8">
-		<title>Austin-Didier Tran</title>
-		<meta name="author" content"Austin-Didier Tran"></meta>
-		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"></link>
-	-->
-		<link rel="stylesheet" type="text/css" href="AustinDidierTran.css">
-		<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
-		<script src="angular.min.js"></script>
-		<script type="text/javascript" src="app.js"></script>
+<head>
+	<meta charset="utf-8">
+	<title>Austin-Didier Tran</title>
+	<meta name="author" content"Austin-Didier Tran"></meta>
+	
+	<!-- Stylesheets -->
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="AustinDidierTran.css">
+	
+	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.js"></script>
+	<script type="text/javascript" src="Scripts/app.js"></script>
+	
 
-
-	</head>
-	<body topmargin="0">
-		<table id="content" cellpadding="0" cellspacing="0">
-		</table>
-		<div id="content" topmargin="0" ng-controller="WebsiteController as website">
-			<div class="header">
-				<h1>AUSTIN-DIDIER TRAN</h1>
+</head>
+<body topmargin="0">
+<div id="container" topmargin="0" ng-controller="MainController as mainCtrl">
+	<div class="header">
+		<div class="row">
+			<div class="col-md-8">
+				<h1 ng-click="mainCtrl.selectTab(0)">Austin-Didier Tran</h1>
 			</div>
-			<div ng-controller="PanelController as panelCtrl">
-				<ul class="nav nav-pills" role="tablist">
-					<li ng-class="{active:panelCtrl.isSelected(0)}"><a href ng-click="panelCtrl.selectTab(0)">{{tabs[0].value}}</a></li>
-					<li ng-class="{active:panelCtrl.isSelected(1)}"><a href ng-click="panelCtrl.selectTab(1)">{{tabs[1].value}}</a></li>
-					<li ng-class="{active:panelCtrl.isSelected(2)}"><a href ng-click="panelCtrl.selectTab(2)">{{tabs[2].value}}</a></li>
-					
-				</ul>
-				<br>
-				<div class="panel" ng-show="panelCtrl.isSelected(0)">
-					<div class="col-md-12">
-						<div class="row">
-							<div class="col-md-3">
-								<img ng-src={{accueil.picture}} style="width:200px;height:200px">
-							</div>
-							<div class="col-md-9">
-								<h3>{{accueil.title}}</h3>
-								<p>{{accueil.content}}</p>
-								<p>{{accueil.conclusion}}</p>
-								<hr>
-							</div>
-						</div>
-	  				</div>
-				</div>
-				
-				<div class="panel" ng-show="panelCtrl.isSelected(1)">
-					<div class="col-md-12">
-						<div ng-repeat="social in socials | orderBy:'socialID'">
-							<div class="row">
-								<div class="col-md-2">
-									<img ng-src={{social.picture}} style="width:80px;height:80px">
-								</div>
-								<div class="col-md-10">
-									<h3>{{social.name}}</h3>
-									<a ng-href={{social.link}}>{{social.content}}</a>
-								</div>
-							</div>
-							<br>
-						</div>
-					</div>
-				</div>
-				
-				<div class="panel" ng-show="panelCtrl.isSelected(2)">
-					<div class="col-md-12">
-						<div ng-repeat="experience in experiences | orderBy:'experienceID'">
-							<div class="row">
-								<div class="col-md-12">
-									<h3>{{experience.title}}</h3>
-									<h4>{{experience.employer}} - {{experience.location}}</h4>
-									<p>{{experience.duration}}</p>
-									<p>{{experience.description}}</p>
-								</div>
-								<hr>
-							</div>
-							<br>
-						</div>
-					</div>
-				</div>
-				<!--
-				<div class="panel" ng-show="panelCtrl.isSelected(3)">
-					<div class="col-md-12">
-						<div ng-repeat="scolaire in scolaires | orderBy:'experienceID'">
-							<div class="row">
-								<div class="col-md-12">
-									<h3>{{scolaire.institution}}</h3>
-									<h4>{{scolaire.field}}</h4>
-									<p>{{scolaire.duration}}</p>
-									<p>{{scolaire.description}}</p>
-								</div>
-								<hr>
-							</div>
-							<br>
-						</div>
-					</div>
-				</div>
-				-->
+			<div class="col-md-4" style="margin-top:20px">
+				<a ng-repeat="social in socials | orderBy:'ID'" ng-href={{social.link}} style="margin-right:10px">
+					<img ng-src={{social.picture}} class="icon">
+				</a>
 			</div>
 		</div>
-	</body>
+	</div>
+	<div id="tabs">
+		<ul class="nav nav-pills red" role="tablist">
+			<li ng-repeat="tab in tabs" ng-class="{active:mainCtrl.isSelected(tab.ID)}"><a href ng-click="mainCtrl.selectTab(tab.ID)">{{tab.value}}</a></li>
+		</ul>
+		<br>
+	</div>
+	<div id="content">
+		<div class="panel" ng-show="mainCtrl.isSelected(0)">
+			<div class="row" ng-repeat="article in articles | orderBy:'ID'">
+				<div class="col-md-2">
+					<br>
+					<img ng-src={{article.picture}} class="picture">
+				</div>
+				<div class="col-md-10">
+					<h3>{{article.title}}</h3>
+					<p ng-repeat="paragraph in article.content">{{paragraph}}</p>
+				</div>
+			</div>
+		</div>	
+		<div class="panel" ng-show="mainCtrl.isSelected(1)">
+			<div class="row" ng-repeat="experience in experiences | orderBy:'ID'">
+				<div class="col-md-2">
+					<br>
+					<img ng-src={{experience.picture}} class="picture" alt="Image à venir">
+				</div>
+				<div class="col-md-10">
+					<h3>{{experience.title}}</h3>
+					<h4>{{experience.employer}} - {{experience.location}}</h4>
+					<p>{{experience.duration}}</p>
+					<p>{{experience.description}}</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="panel" ng-show="mainCtrl.isSelected(2)">
+			<div class="row" ng-repeat="connaissance in connaissances | orderBy:'ID'">
+				<br>
+				<div class="col-md-2">
+					<br>
+					<img ng-src={{connaissance.picture}} class="picture">
+				</div>
+				<div class="col-md-10">
+					<h3>{{connaissance.name}}</h3>
+					<p ng-repeat="description in connaissance.description">{{description}}</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="panel" ng-show="mainCtrl.isSelected(3)">
+			<div class="row" ng-repeat="scolaire in scolaires | orderBy:'ID'">
+				<div class="col-md-2">
+					<br>
+					<img ng-src={{scolaire.picture}} class="picture">
+				</div>
+				<div class="col-md-10">
+					<h3>{{scolaire.institution}}</h3>
+					<h4>{{scolaire.field}}</h4>
+					<p>{{scolaire.duration}}</p>
+					<p ng-repeat="description in scolaire.description">{{description}}</p>
+				</div>
+			</div>
+		</div>
+		
+		
+	</div>
+	<div id="footer">
+		<span ng-repeat="information in footer | orderBy:'ID'" style="margin-right:10px">
+			<img ng-src={{information.picture}} class="icon">
+			{{information.content}}
+		</span>
+	</div>
+</div>
+</body>
 </html>

@@ -1,0 +1,13 @@
+<div class="panel" ng-show="mainCtrl.isSelected(1)">
+	
+	<div class="row" ng-repeat="social in socials | orderBy:'socialID'">
+		<div class="col-md-2">
+			<img ng-src={{social.picture}} style="width:80px;height:80px">
+		</div>
+		<div class="col-md-10">
+			<h3>{{social.name}}</h3>
+			<a ng-href={{social.link}}>{{social.content}}</a>
+		</div>
+	</div>
+	<br>
+</div>
